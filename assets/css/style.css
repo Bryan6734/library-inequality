@@ -706,6 +706,7 @@ header span {
   display: flex;
   align-items: center;
   justify-content: center;
+  
   text-decoration: none;
   background-color: #eee;
   border: 1px solid white;
@@ -721,4 +722,8 @@ header span {
 
 .social__list {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
 }

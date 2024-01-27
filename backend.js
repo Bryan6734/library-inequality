@@ -441,6 +441,7 @@ fetch("data/libraries.csv")
     }
 
     console.log(overlayMaps);
+    overlayMaps['5-10% poverty'].addTo(map)
 
     var layerControl = L.control
       .layers(null, overlayMaps, { collapsed: false })
